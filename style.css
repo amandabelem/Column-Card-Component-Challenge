@@ -1,0 +1,76 @@
+body{
+    background-color:hsl(0, 0%, 95%) ;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75)  
+
+}
+section{
+    width: 200px;
+    height: 400px;
+    padding: 3em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   margin-top: 5em;
+}
+
+.card-1{
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px; 
+         
+}
+.card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 3em;
+    color:  hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+button{
+ 
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    padding: 1em 2em;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 140px;
+    margin: 5em 0;
+      
+}
+.bttn-1{
+    color: hsl(31, 77%, 52%);
+
+}
+.bttn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
+.bttn-2{
+    color: hsl(184, 100%, 22%);
+}
+.bttn-2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
+
+.bttn-3{
+    color: hsl(179, 100%, 13%);
+}
+.bttn-3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+}
